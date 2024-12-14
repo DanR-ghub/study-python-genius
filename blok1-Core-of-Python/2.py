@@ -23,6 +23,9 @@ print(list_var < [1, 2, 4])
 print(dict_var == {"key1": "value1", "key2": "value2"})
 
 print(tuple_var > (1, 2, 2))
+
+print("=================")
+
 #------------
 num_str = 125
 num_str = str(num_str)
@@ -43,6 +46,9 @@ list_extend = [4, 5, 6]
 list_extend.extend([7, 8, 9])
 index = list_extend.index(6)
 length_list = len(list_append)
+
+print("=================")
+
 #------------
 dict_test = {'car': 'Toyota', 'price': 4900, 'where': 'EU'}
 print(dict_test['car'])

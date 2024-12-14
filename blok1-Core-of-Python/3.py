@@ -13,6 +13,8 @@ if users.get(username, {}).get("password") == user_password:
 else:
     print("Неправильний пароль")
 
+print("=================")
+
 # 2. Визначення днів тижня -------------------------------------
 
 days_of_week = {
@@ -31,7 +33,9 @@ if day_number < 1 or day_number > 7:
     raise ValueError("Невірний номер дня тижня")
 else:
     print(days_of_week[day_number])
-    
+
+print("=================")
+
 # 3. Таблиця множення -------------------------------------------
 
 multiplication_table = {}
@@ -43,6 +47,8 @@ for i in range(1, 11):
 
 for i, result in multiplication_table.items():
     print(f"{number} x {i} = {result}")
+
+print("=================")
 
 # 4. Сума чисел ------------------------------------------------
 
@@ -58,6 +64,8 @@ total_sum = sum(numbers.values())
 
 print("Сума чисел:", total_sum)
 
+print("=================")
+
 # 5. Факторіал числа -------------------------------------------
 
 factorials = {}
@@ -72,6 +80,8 @@ factorials[n] = factorial
 
 print(f"Факторіал числа {n} = {factorials[n]}")
 
+print("=================")
+
 # 6. Парні числа -----------------------------------------------
 
 even_numbers = {}
@@ -82,6 +92,8 @@ for i in range(1, 51):
 
 for key, value in even_numbers.items():
     print(value)
+
+print("=================")
 
 # 7. Пошук простих чисел ---------------------------------------
 
@@ -102,3 +114,5 @@ for num in range(start, end + 1):
 
 for key, value in prime_numbers.items():
     print(value)
+
+print("=================")
